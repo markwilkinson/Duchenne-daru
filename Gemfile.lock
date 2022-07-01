@@ -1,0 +1,135 @@
+GIT
+  remote: https://github.com/SciRuby/daru-view
+  revision: 3c4e3de88dc214c47be207c1844fd80bcb3aba00
+  specs:
+    daru-view (0.2.6)
+      actionview
+      daru
+      daru-data_tables
+      google_visualr
+      lazy_high_charts
+      nyaplot
+      thor
+
+GIT
+  remote: https://github.com/SciRuby/daru.git
+  revision: 3ac3d15f3c1b2e7f5a00b61e6cc81c652d4d0250
+  specs:
+    daru (0.3)
+      packable (~> 1.3.13)
+
+GIT
+  remote: https://github.com/SciRuby/nyaplot.git
+  revision: 662ebc60b0d1e9fbebe7e06530d8450d266ebbdd
+  specs:
+    nyaplot (0.1.6)
+
+GIT
+  remote: https://github.com/Shekharrajak/daru-data_tables.git
+  revision: af3460a049daa8a090f82df693ffb6a48eb4ab59
+  specs:
+    daru-data_tables (0.3.5)
+      daru
+
+GIT
+  remote: https://github.com/winston/google_visualr.git
+  revision: 17b97114a345baadd011e7b442b9a6c91a2b7ab5
+  specs:
+    google_visualr (2.5.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    actionview (7.0.3)
+      activesupport (= 7.0.3)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.1, >= 1.2.0)
+    activesupport (7.0.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    backports (3.23.0)
+    builder (3.2.4)
+    concurrent-ruby (1.1.10)
+    crass (1.0.6)
+    data_uri (0.1.0)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    erubi (1.10.0)
+    ffi (1.15.5)
+    ffi-rzmq (2.0.7)
+      ffi-rzmq-core (>= 1.0.7)
+    ffi-rzmq-core (1.0.7)
+      ffi
+    hash-deep-merge (0.1.1)
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
+    io-console (0.5.11)
+    irb (1.4.1)
+      reline (>= 0.3.0)
+    iruby (0.7.4)
+      data_uri (~> 0.1)
+      ffi-rzmq
+      irb
+      mime-types (>= 3.3.1)
+      multi_json (~> 1.11)
+      native-package-installer
+    lazy_high_charts (1.6.1)
+      hash-deep-merge
+    loofah (2.18.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2022.0105)
+    minitest (5.16.1)
+    multi_json (1.15.0)
+    native-package-installer (1.1.4)
+    netrc (0.11.0)
+    nokogiri (1.13.6-x86_64-linux)
+      racc (~> 1.4)
+    packable (1.3.15)
+      backports
+    racc (1.6.0)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.4.3)
+      loofah (~> 2.3)
+    rbczmq (1.7.9)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    thor (1.2.1)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.8.2)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  daru!
+  daru-data_tables!
+  daru-view!
+  ffi-rzmq
+  google_visualr!
+  iruby
+  nyaplot!
+  rbczmq
+  rest-client
+
+BUNDLED WITH
+   2.2.28

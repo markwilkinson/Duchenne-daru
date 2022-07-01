@@ -1,9 +1,10 @@
 source "http://rubygems.org"
-
+require_relative './environment.rb'
 # iruby dependencies
 gem 'rbczmq'
 gem 'ffi-rzmq'
 gem 'iruby'
+gem 'rest-client'
 
 # fetch from the github master branch
 gem 'daru-view', :git => 'https://github.com/SciRuby/daru-view'

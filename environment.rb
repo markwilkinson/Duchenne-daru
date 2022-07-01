@@ -1,0 +1,1 @@
+ENV['CPPFLAGS']='-Wno-error=deprecated-declarations'
