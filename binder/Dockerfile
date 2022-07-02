@@ -5,5 +5,6 @@ RUN whoami
 USER root
 RUN apt-get -y update && apt-get -y dist-upgrade && apt-get install -y libtool-bin autotools-dev autoconf
 USER jovyan
+RUN ls -l
 RUN bundle install --verbose
 
