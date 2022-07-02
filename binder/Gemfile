@@ -5,7 +5,7 @@ gem 'rbczmq'
 gem 'ffi-rzmq'
 gem 'iruby'
 gem 'rest-client'
-
+gem 'matrix'
 # fetch from the github master branch
 gem 'daru-view', :git => 'https://github.com/SciRuby/daru-view'
 
