@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-require_relative './environment.rb'
+require_relative './env.rb'
 # iruby dependencies
 gem 'rbczmq'
 gem 'ffi-rzmq'
