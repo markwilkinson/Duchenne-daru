@@ -1,6 +1,6 @@
 FROM rubydata/minimal-notebook:94284f1ddacc
 ENV TAG=94284f1ddacc
-COPY . .
+COPY ./binder .
 RUN whoami
 USER root
 RUN apt-get -y update && apt-get -y dist-upgrade && apt-get install -y libtool-bin autotools-dev autoconf
