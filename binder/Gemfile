@@ -6,6 +6,11 @@ gem 'ffi-rzmq'
 gem 'iruby'
 gem 'rest-client'
 gem 'matrix'
+
+gem 'sparql'
+gem 'rdf/rdfxml'
+gem 'erb'
+
 # fetch from the github master branch
 gem 'daru-view', :git => 'https://github.com/SciRuby/daru-view'
 
