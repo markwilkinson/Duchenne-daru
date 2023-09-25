@@ -13,9 +13,9 @@ gem 'erb'
 
 # fetch from the github master branch
 #gem 'daru-view', :git => 'https://github.com/SciRuby/daru-view'
-#gem 'daru-view'
+gem 'daru-view'
 
-#gem "daru"
+gem "daru"
 gem "nyaplot"
 gem 'google_visualr'
 gem 'daru-data_tables'
